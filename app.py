@@ -10,7 +10,7 @@ def index():
 
 @app.route('/page/<id>')
 def page(id):
-    return 'This is page: '+str(int(id)+1)
+    return 'This is page: '+str(int(id)+2)
 
 
 if __name__ == '__main__':
